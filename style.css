@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("images/Vivienne Westwood smush.jpeg");
+    background-color: whitesmoke;
+   background-repeat: no-repeat;
+   height: 900px;
+}
+
+.hero-title {
+    display: flex;
+    gap: 4px;
+    margin-left: 90px;
+
+   /* background-size: 50vh; */
+   
+}
+
+.hero-title-image img {
+    width: 110%;
+}
+
+.hero-title-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 28px;
+}
+
+.begining-section {
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    padding: 7em;
+}
+
+.begining-content {
+display: flex;
+gap: 1em;
+}
+
+.begin-image img{
+  object-fit: cover;
+   justify-content: center;
+   height: 710px;
+   width: 678px;
+   
+}
+
+.begin-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kings-section{
+    background-image: url("images/sex-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1013px;
+    padding: 3em;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
+
+
+.kings-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    background-color: whitesmoke;
+    width: 585px ;
+    align-items: center;
+}
+
+.rise-fame{
+    justify-content: center;
+    flex-direction: column;
+}
+.rise-text{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    position: relative;
+    width: 920px;
+
+}
+.boy-text{
+    width: 276px;
+}
+.malcolm-text{
+    width:649px ;
+}
+.rise-cards{
+    display: flex;
+    /* justify-content: center; */
+    padding:6px; 
+    margin-top:25px;
+}
+
+.two{
+    display: flex;
+
+}
